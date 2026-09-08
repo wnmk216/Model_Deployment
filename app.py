@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 
 # Define the pages
-main_page = st.Page("pages/app.py", title="Main Page", icon="🎈")
+main_page = st.Page("pages/home.py", title="Main Page", icon="🎈")
 sale_predict = st.Page("pages/sale_predict.py", title="DataFrame", icon="❄️")
 cat_dog_classify = st.Page("pages/cat_dog_classification.py", title="Plotly", icon="🎉")
 
