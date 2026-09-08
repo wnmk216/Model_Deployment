@@ -4,5 +4,4 @@ pandas
 numpy 
 plotly
 Joblib
-tensorflow ==2.19.1
- 
+tensorflow-cpu
