@@ -6,7 +6,7 @@ import plotly.express as px
 # Define the pages
 main_page = st.Page("pages/home.py", title="Main Page", icon="🎈")
 sale_predict = st.Page("pages/sale_predict.py", title="DataFrame", icon="❄️")
-cat_dog_classify = st.Page("pages/cat_dog_classification.py", title="Plotly", icon="🎉")
+cat_dog_classify = st.Page("pages/cat_dog_classification_app.py", title="Plotly", icon="🎉")
 
 # Set up navigation
 pg = st.navigation([main_page, sale_predict, cat_dog_classify])
